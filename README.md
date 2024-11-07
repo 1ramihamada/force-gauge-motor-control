@@ -10,11 +10,11 @@ This repository contains a Python script that interfaces a Dynamixel motor with 
 
 ## Usage Instructions
 
-1. Connect the Mark-10 / OMEGA force gauge and the Dynamixel motor to the computer. Note the USB ports used by each device (e.g., /dev/ttyUSB0 and /dev/ttyUSB1 on Linux).
-2. Set the correct port for the force gauge (FORCE_PORT) and the Dynamixel motor (DXL_PORT).
-3. Verify that the DXL_ID matches the ID set on your Dynamixel motor.
-4. python3 force_control.py
-
+- Connect the Mark-10 / OMEGA force gauge and the Dynamixel motor to the computer. Note the USB ports used by each device `(e.g., /dev/ttyUSB0 and /dev/ttyUSB1 on Linux)`.
+-  Set the correct port for the force gauge (FORCE_PORT) and the Dynamixel motor (DXL_PORT).
+-  Verify that the DXL_ID matches the ID set on your Dynamixel motor.
+-  Verify the `baud_rate` setting matches the gauge’s configuration (default is 115200 for Mark-10 Series 5).
+- run with `python3 force_control.py`
 
 ## Requirements
 
