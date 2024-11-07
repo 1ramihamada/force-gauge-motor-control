@@ -1,4 +1,4 @@
-# force-gauge-motor-control
+# Controlling Motor with Force Gauge Input
 
 This repository contains a Python script that interfaces a Dynamixel motor with a Mark-10 / OMEGA DFG55 force gauge to control the motor's movement based on force readings. The motor adjusts its position in response to force applied to the gauge: moving in one direction when the force exceeds a positive threshold and in the opposite direction when the force exceeds a negative threshold. This setup is ideal for applications requiring real-time feedback-driven motor control, such as automated testing rigs, dynamic load applications, or experimental robotics.
 
